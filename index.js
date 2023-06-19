@@ -51,19 +51,32 @@
 
 // Task 7 -------------------
 
-const arrOfObjects = [
-  { name: "Breu", age: 11 },
-  { name: "Alex", age: 34 },
-  { name: "Jack", age: 26 },
-  { name: "Nick", age: 3 },
-];
+//const arrOfObjects = [
+//  { name: "Breu", age: 11 },
+//  { name: "Alex", age: 34 },
+//  { name: "Jack", age: 26 },
+//  { name: "Nick", age: 3 },
+//];
 
-const averageAge = arrOfObjects.reduce((acc, item, index, arr) => {
-  acc += item.age;
-  if (index === arr.length - 1) {
-    return acc / arr.length;
-  } else {
-    return acc;
-  }
-}, 0);
-console.log(averageAge);
+//const averageAge = arrOfObjects.reduce((acc, item, index, arr) => {
+//  acc += item.age;
+//  if (index === arr.length - 1) {
+//    return acc / arr.length;
+//  } else {
+//    return acc;
+//  }
+//}, 0);
+//console.log(averageAge);
+
+// Task 8 -------------------
+
+const arrOfStrings = [
+  "as",
+  "JavaScript dddsssaa",
+  "asdad",
+  "fffrfefasd JavaScript",
+  "fff",
+];
+console.log(arrOfStrings);
+const arrStrMore5 = arrOfStrings.filter((item) => item.length >= 5);
+console.log(arrStrMore5);
