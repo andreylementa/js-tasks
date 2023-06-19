@@ -21,12 +21,24 @@
 
 // Task 4 -------------------
 
-const arrOfStrings = [
-  "asdasdasd",
-  "JavaScript dddsssaa",
-  "asdasdasd",
-  "fffrfefasd JavaScript",
+//const arrOfStrings = [
+//  "asdasdasd",
+//  "JavaScript dddsssaa",
+//  "asdasdasd",
+//  "fffrfefasd JavaScript",
+//];
+
+//const firstJs = arrOfStrings.find((item) => item.includes("JavaScript"));
+//console.log(firstJs);
+
+// Task 5 -------------------
+
+const arrOfObjects = [
+  { name: "Breu", age: 11 },
+  { name: "Alex", age: 34 },
+  { name: "Jack", age: 26 },
+  { name: "Nick", age: 3 },
 ];
 
-const firstJs = arrOfStrings.find((item) => item.includes("JavaScript"));
-console.log(firstJs);
+arrOfObjects.sort((a, b) => (a.age > b.age ? 1 : -1));
+console.log(arrOfObjects);
