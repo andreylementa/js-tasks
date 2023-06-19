@@ -33,12 +33,18 @@
 
 // Task 5 -------------------
 
-const arrOfObjects = [
-  { name: "Breu", age: 11 },
-  { name: "Alex", age: 34 },
-  { name: "Jack", age: 26 },
-  { name: "Nick", age: 3 },
-];
+//const arrOfObjects = [
+//  { name: "Breu", age: 11 },
+//  { name: "Alex", age: 34 },
+//  { name: "Jack", age: 26 },
+//  { name: "Nick", age: 3 },
+//];
 
-arrOfObjects.sort((a, b) => (a.age > b.age ? 1 : -1));
-console.log(arrOfObjects);
+//arrOfObjects.sort((a, b) => (a.age > b.age ? 1 : -1));
+//console.log(arrOfObjects);
+
+// Task 6 -------------------
+
+const arrOfNumbers = [1, 10, -31, 20, 33, 4];
+
+console.log(arrOfNumbers.every((item) => item >= 0));
