@@ -45,6 +45,25 @@
 
 // Task 6 -------------------
 
-const arrOfNumbers = [1, 10, -31, 20, 33, 4];
+//const arrOfNumbers = [1, 10, -31, 20, 33, 4];
 
-console.log(arrOfNumbers.every((item) => item >= 0));
+//console.log(arrOfNumbers.every((item) => item >= 0));
+
+// Task 7 -------------------
+
+const arrOfObjects = [
+  { name: "Breu", age: 11 },
+  { name: "Alex", age: 34 },
+  { name: "Jack", age: 26 },
+  { name: "Nick", age: 3 },
+];
+
+const averageAge = arrOfObjects.reduce((acc, item, index, arr) => {
+  acc += item.age;
+  if (index === arr.length - 1) {
+    return acc / arr.length;
+  } else {
+    return acc;
+  }
+}, 0);
+console.log(averageAge);
