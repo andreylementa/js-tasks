@@ -89,12 +89,18 @@
 
 // Task 10 -------------------
 
-const arrOfStrings = [
-  "as",
-  "JavaScript dddsssaa",
-  "asdad",
-  "fffrfefasd JavaScript",
-  "fff",
-];
+//const arrOfStrings = [
+//  "as",
+//  "JavaScript dddsssaa",
+//  "asdad",
+//  "fffrfefasd JavaScript",
+//  "fff",
+//];
 
-console.log(arrOfStrings.some((item) => item.includes("JavaScript")));
+//console.log(arrOfStrings.some((item) => item.includes("JavaScript")));
+
+// Task 11 -------------------
+
+const arrOfNumbers = [1, 10, -31, 20, 33, 4];
+
+console.log(arrOfNumbers.findIndex((item) => item < 0));
