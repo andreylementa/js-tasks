@@ -140,6 +140,40 @@
 
 // Task 15 -------------------
 
+//const arrOfObjects = [
+//  { name: "Breu", age: 11 },
+//  { name: "Alex", age: 34 },
+//  { name: "Jack", age: 26 },
+//  { name: "Martin", age: 47 },
+//  { name: "Stiv", age: 10 },
+//  { name: "Bob", age: 55 },
+//];
+
+//arrOfObjects.sort((a, b) => (a.name > b.name ? 1 : -1));
+//console.log(arrOfObjects);
+
+// Task 16 -------------------
+
+//const arrOfStrings = [
+//  "as",
+//  "JavaScript dddsssaa",
+//  "asdad",
+//  "fffrfefasd JavaScript",
+//  "fff",
+//];
+
+//const totalLength = arrOfStrings.reduce((acc, item) => acc + item.length, 0);
+//console.log(totalLength);
+
+// Task 17 -------------------
+
+//const arrOfNumbers = [1, 10, -31, 60, 33, 54];
+
+//const arrOfNumbersMore50 = arrOfNumbers.filter((item) => item >= 50);
+//console.log(arrOfNumbersMore50);
+
+// Task 18 -------------------
+
 const arrOfObjects = [
   { name: "Breu", age: 11 },
   { name: "Alex", age: 34 },
@@ -149,5 +183,4 @@ const arrOfObjects = [
   { name: "Bob", age: 55 },
 ];
 
-arrOfObjects.sort((a, b) => (a.name > b.name ? 1 : -1));
-console.log(arrOfObjects);
+console.log(arrOfObjects.some((item) => item.age > 50));
