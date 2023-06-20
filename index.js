@@ -107,14 +107,27 @@
 
 // Task 12 -------------------
 
-const arrOfObjects = [
-  { name: "Breu", age: 11 },
-  { name: "Alex", age: 34 },
-  { name: "Jack", age: 26 },
-  { name: "Nick", age: 47 },
-  { name: "Nick", age: 10 },
-  { name: "Nick", age: 55 },
+//const arrOfObjects = [
+//  { name: "Breu", age: 11 },
+//  { name: "Alex", age: 34 },
+//  { name: "Jack", age: 26 },
+//  { name: "Nick", age: 47 },
+//  { name: "Nick", age: 10 },
+//  { name: "Nick", age: 55 },
+//];
+
+//const arrOfObjectsMore30 = arrOfObjects.filter((item) => item.age > 30);
+//console.log(arrOfObjectsMore30);
+
+// Task 13 -------------------
+
+const arrOfStrings = [
+  "as",
+  "JavaScript dddsssaa",
+  "asdad",
+  "fffrfefasd JavaScript",
+  "fff",
 ];
 
-const arrOfObjectsMore30 = arrOfObjects.filter((item) => item.age > 30);
-console.log(arrOfObjectsMore30);
+const arrOfStrings2 = arrOfStrings.map((item) => (item = "Hello " + item));
+console.log(arrOfStrings2);
