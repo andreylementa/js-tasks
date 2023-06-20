@@ -121,13 +121,19 @@
 
 // Task 13 -------------------
 
-const arrOfStrings = [
-  "as",
-  "JavaScript dddsssaa",
-  "asdad",
-  "fffrfefasd JavaScript",
-  "fff",
-];
+//const arrOfStrings = [
+//  "as",
+//  "JavaScript dddsssaa",
+//  "asdad",
+//  "fffrfefasd JavaScript",
+//  "fff",
+//];
 
-const arrOfStrings2 = arrOfStrings.map((item) => (item = "Hello " + item));
-console.log(arrOfStrings2);
+//const arrOfStrings2 = arrOfStrings.map((item) => (item = "Hello " + item));
+//console.log(arrOfStrings2);
+
+// Task 14 -------------------
+
+const arrOfNumbers = [1, 10, -31, 20, 33, 4];
+
+console.log(arrOfNumbers.some((item) => item < 10));
