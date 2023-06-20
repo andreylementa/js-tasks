@@ -101,6 +101,20 @@
 
 // Task 11 -------------------
 
-const arrOfNumbers = [1, 10, -31, 20, 33, 4];
+//const arrOfNumbers = [1, 10, -31, 20, 33, 4];
 
-console.log(arrOfNumbers.findIndex((item) => item < 0));
+//console.log(arrOfNumbers.findIndex((item) => item < 0));
+
+// Task 12 -------------------
+
+const arrOfObjects = [
+  { name: "Breu", age: 11 },
+  { name: "Alex", age: 34 },
+  { name: "Jack", age: 26 },
+  { name: "Nick", age: 47 },
+  { name: "Nick", age: 10 },
+  { name: "Nick", age: 55 },
+];
+
+const arrOfObjectsMore30 = arrOfObjects.filter((item) => item.age > 30);
+console.log(arrOfObjectsMore30);
