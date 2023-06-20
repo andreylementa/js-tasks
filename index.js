@@ -70,13 +70,19 @@
 
 // Task 8 -------------------
 
-const arrOfStrings = [
-  "as",
-  "JavaScript dddsssaa",
-  "asdad",
-  "fffrfefasd JavaScript",
-  "fff",
-];
-console.log(arrOfStrings);
-const arrStrMore5 = arrOfStrings.filter((item) => item.length >= 5);
-console.log(arrStrMore5);
+//const arrOfStrings = [
+//  "as",
+//  "JavaScript dddsssaa",
+//  "asdad",
+//  "fffrfefasd JavaScript",
+//  "fff",
+//];
+//console.log(arrOfStrings);
+//const arrStrMore5 = arrOfStrings.filter((item) => item.length >= 5);
+//console.log(arrStrMore5);
+
+// Task 9 -------------------
+
+const arrOfNumbers = [1, 10, -31, 20, 33, 4];
+const arrOfX = arrOfNumbers.reduce((acc, item) => acc * item, 1);
+console.log(arrOfX);
