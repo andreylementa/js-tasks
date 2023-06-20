@@ -83,6 +83,18 @@
 
 // Task 9 -------------------
 
-const arrOfNumbers = [1, 10, -31, 20, 33, 4];
-const arrOfX = arrOfNumbers.reduce((acc, item) => acc * item, 1);
-console.log(arrOfX);
+//const arrOfNumbers = [1, 10, -31, 20, 33, 4];
+//const arrOfX = arrOfNumbers.reduce((acc, item) => acc * item, 1);
+//console.log(arrOfX);
+
+// Task 10 -------------------
+
+const arrOfStrings = [
+  "as",
+  "JavaScript dddsssaa",
+  "asdad",
+  "fffrfefasd JavaScript",
+  "fff",
+];
+
+console.log(arrOfStrings.some((item) => item.includes("JavaScript")));
