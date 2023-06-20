@@ -134,6 +134,20 @@
 
 // Task 14 -------------------
 
-const arrOfNumbers = [1, 10, -31, 20, 33, 4];
+//const arrOfNumbers = [1, 10, -31, 20, 33, 4];
 
-console.log(arrOfNumbers.some((item) => item < 10));
+//console.log(arrOfNumbers.some((item) => item < 10));
+
+// Task 15 -------------------
+
+const arrOfObjects = [
+  { name: "Breu", age: 11 },
+  { name: "Alex", age: 34 },
+  { name: "Jack", age: 26 },
+  { name: "Martin", age: 47 },
+  { name: "Stiv", age: 10 },
+  { name: "Bob", age: 55 },
+];
+
+arrOfObjects.sort((a, b) => (a.name > b.name ? 1 : -1));
+console.log(arrOfObjects);
